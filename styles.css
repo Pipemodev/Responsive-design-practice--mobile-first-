@@ -137,7 +137,9 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
-
+.main-table-container{
+    scroll-snap-align: center;
+}
 .main-currency-table{
     width: 70%;
     min-width: 235px;
@@ -549,6 +551,13 @@ main {
     height: 20px;
     background-image: url(/Assets/icons/arrow-right\ 1.svg);
     vertical-align: text-bottom;
+}
+.big-table-container{
+    display: flex;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 .plans-container--slider{
     display: flex;
