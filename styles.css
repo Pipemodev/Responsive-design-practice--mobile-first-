@@ -139,6 +139,8 @@ main {
 }
 .main-table-container{
     scroll-snap-align: center;
+    align-content: center;
+    margin: 0 auto;
 }
 .main-currency-table{
     width: 70%;
@@ -553,6 +555,8 @@ main {
     vertical-align: text-bottom;
 }
 .big-table-container{
+    margin: 0 auto;
+    align-content: center;
     display: flex;
     height: 400px;
     overflow-x: scroll;
